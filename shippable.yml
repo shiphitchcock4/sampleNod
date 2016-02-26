@@ -22,6 +22,7 @@ node_js:
 
 
 build:
+  cache: true
   ci:
     - node --version
     
