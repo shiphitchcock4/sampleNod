@@ -1,6 +1,6 @@
 language: node_js
 services:
-  #- mysql
+  - mysql
   #- postgres
   #- redis
   #- memcache
@@ -9,7 +9,7 @@ services:
   #- rabbitmq
   #- neo4j
   #- couchdb
-  - rethinkdb
+  #- rethinkdb
 # Version number
 node_js:
   - 0.10
