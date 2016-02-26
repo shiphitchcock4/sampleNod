@@ -1,14 +1,14 @@
 language: node_js
 services:
-  - mysql
-  - postgres
-  - redis
-  - memcache
-  - elasticsearch
-  - mongodb
-  - rabbitmq
-  - neo4j
-  - couchdb
+  #- mysql
+  #- postgres
+  #- redis
+  #- memcache
+  #- elasticsearch
+  #- mongodb
+  #- rabbitmq
+  #- neo4j
+  #- couchdb
   - rethinkdb
 # Version number
 node_js:
