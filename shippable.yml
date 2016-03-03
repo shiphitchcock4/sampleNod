@@ -20,7 +20,7 @@ node_js:
   - 5.0
 
 
-build:
+build:  
   ci:
     - node --version
     
