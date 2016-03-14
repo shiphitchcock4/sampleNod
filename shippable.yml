@@ -10,18 +10,32 @@ node_js:
   - iojs-v3
   - 5.0    
 
-build:    
-  ci:    
-    - node --version
+build:
+ # cache: true
+  pre_ci:
+    - docker build -t=shippabledocker/shiphitchcock2_sample_node2 .
+   # - docker build -t=quay.io/shippablequay/hitchcock2_sample_nodequay .
+
+  pre_ci_boot:
+    image_name: shippabledocker/shiphitchcock2_sample_node2
+    image_tag: latest
+    pull: false
+    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
     
+    
+  ci:
+    - node --version
+    - ps -eax
+    - ls -al 
+
+  post_ci:
+   # - docker build -t=shippabledocker/shiphitchcock2_sample_node2 .
+    - docker push shippabledocker/shiphitchcock2_sample_node2
+    #- docker build -t=quay.io/shippablequay/hitchcock2_sample_nodequay .
+   # - docker push quay.io/shippablequay/hitchcock2_sample_nodequay
+
 integrations:
-  notifications:
-    - integrationName: email      
-      type: email   
-      recipients:
-        - sreyaj10@gmail.com
-        - sreya@shippable.com
-      on_start: always
-      on_success: change
-      on_failure: always
-      on_pull_request: always
+  hub:
+    - integrationName: ship-docker
+      type: docker      
+
