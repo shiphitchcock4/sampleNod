@@ -17,7 +17,7 @@ build:
 
 integrations:
     notifications:
-        - integrationName: pranay-hipchat
+        - integrationName: ship-hipchat
           type: hipchat
           recipients:
             - '#testing'
