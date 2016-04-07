@@ -20,6 +20,10 @@ build:
     pull: true  
     
   cache: true
+  
+  cache_dir_list: 
+    - $SHIPPABLE_BUILD_DIR 
+
     
 integrations:
   notifications:
