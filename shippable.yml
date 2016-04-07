@@ -13,11 +13,10 @@ node_js:
 build:
   ci:
     - node --version
-    - .thttthyhhh
-    
+
   pre_ci_boot:
-    image_name: drydock/u12nod
-    image_tag: prod
+    image_name: shippableimages/ubuntu1204_nodejs
+    image_tag: latest
     pull: true  
     
 integrations:
