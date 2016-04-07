@@ -19,6 +19,8 @@ build:
     image_tag: latest
     pull: true  
     
+  cache: true
+    
 integrations:
   notifications:
     - integrationName: email      
