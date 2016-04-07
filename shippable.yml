@@ -15,7 +15,7 @@ build:
     - node --version
 
   pre_ci_boot:
-    image_name: shippableimages/ubuntu1204_nodejs
+    image_name: shippable/minv2
     image_tag: latest
     pull: true  
     
