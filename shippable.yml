@@ -35,8 +35,8 @@ integrations:
         - FOO=BAR
         - FIZZ=BUZZ
         
-      on_failure: always
+      on_failure: never
      # on_start: always
-      on_success: never       
+      on_success: always     
                
      
