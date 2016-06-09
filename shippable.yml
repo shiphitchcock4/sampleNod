@@ -15,6 +15,7 @@ env:
 
 build:
   ci:
+    - hnj
 
     - echo $PROJECT_ID
  # - JSON='{"projectId":"$PROJECT_ID","branchName":"master","type":"push"}'
