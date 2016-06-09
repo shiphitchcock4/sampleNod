@@ -16,7 +16,7 @@ env:
 build:
   ci:
   
-
+    - hj
     - echo $PROJECT_ID
  # - JSON='{"projectId":"$PROJECT_ID","branchName":"master","type":"push"}'
  # - 'curl -H "Authorization: apiToken $SHIP_TOKEN" -H "Content-Type: application/json" -d "{\"projectId\": \"$PROJECT_ID\"}" https://apibeta.shippable.com/projects/$PROJECT_ID/newBuild'
@@ -38,7 +38,7 @@ integrations:
         
      # on_failure: always
       on_start: always 
-      on_success: never  
+      on_failure: never  
       
     - integrationName: shipwebhooktest9
       type: webhook
@@ -51,6 +51,6 @@ integrations:
         
      # on_failure: always
       #on_start: always 
-      on_success: always    
+      on_failure: always    
                
      
