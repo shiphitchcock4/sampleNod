@@ -18,7 +18,7 @@ build:
   
     
 integrations:
-   notifications:
+  notifications:
     - integrationName: ship4-webhook test
       type: webhook
       payload:
@@ -29,4 +29,4 @@ integrations:
         #- test:work
       on_success: always
       on_failure: always 
-    
+      
