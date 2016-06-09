@@ -27,7 +27,7 @@ integrations:
         #- test:work
       on_success: always
       on_failure: always 
-     - integrationName: ship_slack
+    - integrationName: ship_slack
       type: slack
       recipients:
         - "#random" 
