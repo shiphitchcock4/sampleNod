@@ -15,8 +15,6 @@ build:
     - node --version
     #- sleep 5m  
 
-  
-    
 integrations:
   notifications:
     - integrationName: ship4-webhook test
