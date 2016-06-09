@@ -14,7 +14,7 @@ build:
   ci:    
     - node --version
     #- sleep 5m  
-  cache: true 
+
   
     
 integrations:
@@ -28,5 +28,5 @@ integrations:
         - FIZZ=buzz
         #- test:work
       on_success: always
-      on_failure: always
+      on_failure: always 
     
