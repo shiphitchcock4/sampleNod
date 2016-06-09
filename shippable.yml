@@ -27,6 +27,6 @@ integrations:
         - FOO=$bar
         - FIZZ=buzz
         #- test:work
-      on_success: always
-      on_failure: always 
+      #on_success: always
+      #on_failure: always 
     
