@@ -17,7 +17,7 @@ build:
 
 integrations:
   notifications:
-    - integrationName: ship4-webhook test
+    - integrationName: ship-postweb
       type: webhook
       payload:
         - API_URL=$SHIPPABLE_API_URL
