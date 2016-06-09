@@ -36,7 +36,7 @@ integrations:
         - FIZZ=BUZZ
         
       on_failure: never
-     # on_start: always
-      on_success: always     
+      on_start: always
+      #on_success: always     
                
      
