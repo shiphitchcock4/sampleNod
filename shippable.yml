@@ -15,7 +15,7 @@ env:
 
 build:
   ci:
-    - hnj
+  
 
     - echo $PROJECT_ID
  # - JSON='{"projectId":"$PROJECT_ID","branchName":"master","type":"push"}'
@@ -36,9 +36,9 @@ integrations:
         - FOO=BAR
         - FIZZ=BUZZ
         
-      on_failure: always
+     # on_failure: always
       on_start: always 
-      on_success: always   
+      on_success: never  
       
     - integrationName: shipwebhooktest9
       type: webhook
@@ -49,8 +49,8 @@ integrations:
         - FOO=BAR
         - FIZZ=BUZZ
         
-      on_failure: always
-      on_start: always 
+     # on_failure: always
+      #on_start: always 
       on_success: always    
                
      
