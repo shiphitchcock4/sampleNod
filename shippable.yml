@@ -35,9 +35,9 @@ integrations:
         - FOO=BAR
         - FIZZ=BUZZ
         
-      on_failure: never
+      on_failure: change
       on_start: always 
-      on_success: change
+      on_success: never
       
     - integrationName: shipwebhooktest9
       type: webhook
@@ -48,7 +48,7 @@ integrations:
         - FOO=BAR
         - FIZZ=BUZZ
         
-      on_failure: never
+      on_failure: change
       on_start: always   
-      on_success: change
+      on_success: never
  
