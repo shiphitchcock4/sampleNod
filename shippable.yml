@@ -37,7 +37,7 @@ integrations:
         
       on_failure: change
       on_start: always 
-      on_success: never
+      on_success: change
       
     - integrationName: shipwebhooktest9
       type: webhook
@@ -50,5 +50,5 @@ integrations:
         
       on_failure: change
       on_start: always   
-      on_success: never 
+      on_success: change
  
