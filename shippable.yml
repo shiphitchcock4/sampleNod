@@ -39,7 +39,7 @@ integrations:
       on_start: always 
       on_success: change
       
-    - integrationName: shipwebhooktest9
+    - integrationName: shipwebhooktest9 
       type: webhook
       payload:
         - isPRBuild=$IS_PULL_REQUEST
