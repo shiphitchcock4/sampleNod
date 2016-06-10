@@ -22,7 +22,7 @@ build:
 
 #  - 'curl -H "Content-Type: application/json" -H "Authorization: $SHIP_TOKEN" -X POST -d $JSON https://apibeta.shippable.com/projects/$PROJECT_ID/newBuild'
 
-integrations:
+integrations: 
   
   notifications: 
 
