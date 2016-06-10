@@ -37,8 +37,8 @@ integrations:
         - FIZZ=BUZZ
         
       on_failure: always
-      on_start: always 
-      on_success: always
+      #on_start: always 
+      on_success: change
       
     - integrationName: shipwebhooktest9
       type: webhook
@@ -50,7 +50,7 @@ integrations:
         - FIZZ=BUZZ
         
       on_failure: always
-      on_start: always 
-      on_success: always     
+      #on_start: always 
+      on_success: change    
                
      
