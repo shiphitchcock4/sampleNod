@@ -29,12 +29,12 @@ integrations:
     - integrationName: ship-webhook
       type: webhook
       payload:
-        - isPRBuild=$IS_PULL_REQUEST
-        - branchName=$BRANCH
-        - message=Shippable Run $BUILD_NUMBER ($BUILD_URL) succeeded for $COMPARE_URL
-        - FOO=BAR
-        - FIZZ=BUZZ
-        - hosts=['testing']
+        #- isPRBuild=$IS_PULL_REQUEST
+        #- branchName=$BRANCH
+        #- message=Shippable Run $BUILD_NUMBER ($BUILD_URL) succeeded for $COMPARE_URL
+        #- FOO=BAR
+        #- FIZZ=BUZZ
+        #- hosts=['testing']
        # goo=gubu
        # - secure: JGLUo197AoaHIHbhrCSA7T5saQPJ0jIoHtZDnVaZXtbkQdlVNq3AaLyo5KwOS2EKZ2LYLx1pXQlbkDnsI8cA84XCc987PQ8vT/ge+fdYPIKcJOTgNOc1JIlC88LvpOU2niqZE4Hv/LNg7aLtgjDsfwwvda9j91T59/6qBq5J+KraQWMERDhIrstC5XLT15aHzTP4GwPKOJMUBB5Bx1gsVsykUtChWvU8qbgu+Cus6MNZOui5zuwpH568e9UnjiR1kvIXg1TtYCw/plZ34DU7F3vztVn4kJ0PN1YfGKH22EL2z7VcpuGk1epPhrFOE+VMcrpvgDW3ZGMtHuhXTM9VlA==
       on_failure: always
