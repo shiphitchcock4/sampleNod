@@ -27,7 +27,7 @@ integrations:
   notifications: 
 
     - integrationName: ship-webhook
-      type: webhook1
+      type: webhook
       payload:
         #- isPRBuild=$IS_PULL_REQUEST
         #- branchName=$BRANCH
