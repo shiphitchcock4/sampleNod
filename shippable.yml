@@ -24,16 +24,5 @@ build:
   cache_dir_list: 
     - $SHIPPABLE_BUILD_DIR 
 
-    
-integrations:
-  notifications:
-    - integrationName: email      
-      type: email   
-      recipients:
-        - sreyaj10@gmail.com
-        - sreya@shippable.com
-      on_start: always
-      on_success: change
-      on_failure: always
-      on_pull_request: always
+
  
