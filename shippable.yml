@@ -76,5 +76,5 @@ integrations:
       on_success: always
       recipients:
         - "#general"
- 
+  
   
