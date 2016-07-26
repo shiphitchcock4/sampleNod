@@ -51,7 +51,7 @@ integrations:
         - FOO=BAR
         - FIZZ=BUZZ
         - FOO=123
-        - hosts=['testing']
+       # - hosts=['testing']
        # - hosts="testing"
         #- secure: jqXu4ID4PkZKT86tauuWlTp2qP05R4krGd/KQTS5+AuG0Z8Z+njXtFx3QUjcckxwMJZDjmyfvvjEWKMr8Td33A/lKhoTmY5QW2sgsoOCFE1rWDJ2eIJh3YrH/MFaLlrMBgMck0HcMaeeP2LmJLmg7Z4zdpko7wVHlCgl74J6j2VNtn2hFOSUiuTtti/5104kUvoFhvAwtxPits5gChMw/s/R0gAslIMeX5tHS6V/Vu0OKMi2d6Wob9nXc7WOa3LVo8XCzu7Oqr5MNlNYYyZ+28ad4DhlB/UIEBPuybn/doazNFfKyeNngrrNiSmsLBr6r7WvL3g5oAydB3YoWnhvvA==
         # foo=fubu
