@@ -37,33 +37,33 @@ integrations:
       on_start: always
       on_success: always
       
-    - integrationName: shipwebhooktest9 
-      type: webhook
-      payload:
-        - isPRBuild=$IS_PULL_REQUEST
-        - branchName=$BRANCH
-        - message=Shippable Run $BUILD_NUMBER ($BUILD_URL) succeeded for $COMPARE_URL
-        - FOO=BAR
-        - FIZZ=BUZZ
+    # - integrationName: shipwebhooktest9 
+    #   type: webhook
+    #   payload:
+    #     - isPRBuild=$IS_PULL_REQUEST
+    #     - branchName=$BRANCH
+    #     - message=Shippable Run $BUILD_NUMBER ($BUILD_URL) succeeded for $COMPARE_URL
+    #     - FOO=BAR
+    #     - FIZZ=BUZZ
         
-      on_failure: always
-      on_start: always
-      on_success: always 
+    #   on_failure: always
+    #   on_start: always
+    #   on_success: always 
       
-    - integrationName: ship_slack
-      type: slack
-      recipients:
-        - "#random" 
-        - "#public-chnl" 
-      on_start: always
-      on_success: always
-      on_failure: always
-    - integrationName: "ship-slack1"
-      type: slack
-      on_failure: always
-      on_start: always
-      on_success: always
-      recipients:
-        - "#general"
+    # - integrationName: ship_slack
+    #   type: slack
+    #   recipients:
+    #     - "#random" 
+    #     - "#public-chnl" 
+    #   on_start: always
+    #   on_success: always
+    #   on_failure: always
+    # - integrationName: "ship-slack1"
+    #   type: slack
+    #   on_failure: always
+    #   on_start: always
+    #   on_success: always
+    #   recipients:
+    #     - "#general"
  
   
