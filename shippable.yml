@@ -13,23 +13,24 @@ node_js:
 build:    
   ci:          
     - node --version
+    - sudo docker ps -a
     #- sleep 5m  
 
-integrations:
-  notifications:
-    - integrationName: "ship4-webhook test"
-      type: webhook
-      payload:
-        - API_URL=$SHIPPABLE_API_URL
-        - CONTAINER_NAME=$SHIPPABLE_CONTAINER_NAME
-        - FOO=$bar
-        - FIZZ=buzz
-        #- test:work
-      on_success: always
-      on_failure: always 
-    - integrationName: ship_slack
-      type: slack
-      recipients:
+# integrations:
+#   notifications:
+#     - integrationName: "ship4-webhook test"
+#       type: webhook
+#       payload:
+#         - API_URL=$SHIPPABLE_API_URL
+#         - CONTAINER_NAME=$SHIPPABLE_CONTAINER_NAME
+#         - FOO=$bar
+#         - FIZZ=buzz
+#         #- test:work
+#       on_success: always
+#       on_failure: always 
+#     - integrationName: ship_slack
+#       type: slack
+#       recipients:
         - "#random" 
         - "#public-chnl" 
       on_start: always
