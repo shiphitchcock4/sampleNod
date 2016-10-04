@@ -14,7 +14,7 @@ build:
   ci:          
     - node --version
     - sudo docker ps -a
-    - sleep 5m  
+    - sleep 11m  
 
 # integrations:
 #   notifications:
