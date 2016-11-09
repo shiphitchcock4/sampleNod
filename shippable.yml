@@ -15,7 +15,7 @@ build:
     - node --version
     - sudo docker ps -a
     #- sleep 11m
-  cache: true
+ # cache: true
 
 # integrations:
 #   notifications:
