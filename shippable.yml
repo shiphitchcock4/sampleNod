@@ -14,7 +14,7 @@ build:
   ci:          
     - node --version
     - sudo docker ps -a
-    #- sleep 11m
+    - sleep 11m
  # cache: true
 
 # integrations:
