@@ -10,8 +10,8 @@ node_js:
   #- iojs-v3   
   #- 5.0          
  
-       build:     
-    ci:          
+build:     
+  ci:          
     - node --version
     - sudo docker ps -a
     #- sleep 11m
