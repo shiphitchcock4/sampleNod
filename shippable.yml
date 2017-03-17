@@ -14,15 +14,15 @@ build:
   ci:
     - node --version
 
-  pre_ci_boot:
-    image_name: drydock/u12nod
-    image_tag: prod
-    pull: true  
+ # pre_ci_boot:
+   # image_name: drydock/u12nod
+   # image_tag: prod
+    #pull: true  
     
-  cache: true
+  #cache: true
   
-  cache_dir_list: 
-    - $SHIPPABLE_BUILD_DIR 
+  #cache_dir_list: 
+  #  - $SHIPPABLE_BUILD_DIR 
 
 
  
