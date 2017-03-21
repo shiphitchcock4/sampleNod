@@ -40,7 +40,7 @@ build:
     - echo $sre
     - echo $sru
     - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
-    #- sleep 11m
+    - sleep 1m
  # cache: true
 
 # integrations:
