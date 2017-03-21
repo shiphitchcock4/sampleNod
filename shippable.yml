@@ -3,7 +3,7 @@ language: node_js
 # Version number
 node_js:
   - 0.10
- # - 0.12
+  - 0.12
   #- 4.2.3
   #- iojs-v1   
   #- iojs-v2
@@ -13,12 +13,12 @@ node_js:
  # - env=test1
 matrix:
 #include this version with the env 
-  include:               
-    - node_js: 0.11
-      env: 
-        - foo=fubu
-        - h1=one
-    - node_js: 0.12
+#  include:               
+ #   - node_js: 0.11
+  #    env: 
+   #     - foo=fubu
+   #     - h1=one
+   # - node_js: 0.12
          
 #excludes this version 
   #exclude:             
@@ -26,8 +26,8 @@ matrix:
     #  env:
      #   - env=test1 
 #allows failure for this version
- # allow_failures:
-  #  - jdk: oraclejdk7 
+  allow_failures:
+    - node_js: 0.12
     
 build:     
   ci:          
@@ -36,6 +36,7 @@ build:
     - echo $foo
     - echo $sre
     - echo $sru
+    - if [ "$SHIPPABLE_NODE_JS_VERSION" == "0.12" ]; then foobar; fi 
     #- sleep 11m
  # cache: true
 
