@@ -30,8 +30,9 @@ build:
   ci:          
     - node --version
     - sudo docker ps -a
+    - echo $foo
     #- sleep 11m
-  cache: true
+ # cache: true
 
 # integrations:
 #   notifications:
