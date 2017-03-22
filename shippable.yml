@@ -2,7 +2,7 @@ language: node_js
 
 # Version number
 node_js:
-  - 0.10
+ # - 0.10
   - 0.12
   #- 4.2.3
   #- iojs-v1   
@@ -11,15 +11,15 @@ node_js:
   #- 5.0          
 env:
   - env=test1
-    env=test2
-    env=test3
+  - env=test2
+   # env=test3
 matrix:
 #include this version with the env 
   include:               
     - node_js: 0.11
       env: 
         - foo=fubu
-          goo=gubu
+          #goo=gubu
       
    # - node_js: 0.12
          
@@ -31,6 +31,8 @@ matrix:
 #allows failure for this version
   allow_failures:
     - node_js: 0.12
+      env:
+        - env=test1
     
 build:     
   ci:          
