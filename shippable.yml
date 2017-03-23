@@ -36,10 +36,10 @@ build:
     - echo $env
     - echo $www
     - echo $api
-    - thyu
+
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
-  #  - sleep 10m
+    - sleep 10m
  # cache: true 
 integrations:
   generic:
