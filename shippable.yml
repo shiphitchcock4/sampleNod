@@ -13,18 +13,18 @@ env:
   - env=test1
  # - env=test2
    # env=test3
-matrix:
+#matrix:
 #include this version with the env 
-  include:               
-    - node_js: 0.11
-      env: 
-         foo: fubu
-         f1: f2
+ # include:               
+  #  - node_js: 0.11
+   #   env: 
+    #     foo: fubu
+     #    f1: f2
 
-  allow_failures:
-    - node_js: 0.12
-      env:
-        - env=test1
+  #allow_failures:
+   # - node_js: 0.12
+    #  env:
+     #   - env=test1
     
 build:     
   ci:          
