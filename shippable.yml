@@ -42,7 +42,7 @@ build:
  # cache: true 
 integrations:
   generic:
-    - integrationName: keyvalue
+    - integrationName: keyvalue     
 # integrations:
 #   notifications:
 #     - integrationName: "ship4-webhook test"
