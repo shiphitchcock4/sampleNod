@@ -26,7 +26,7 @@ env:
     #  env:
      #   - env=test1
     
-build:     
+build:      
   ci:          
     - node --version
     - sudo docker ps -a
