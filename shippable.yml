@@ -33,7 +33,7 @@ build:
     - echo $sre
     - echo $sru
     - echo $env
-    - echo $www
+    - echo $www 
     - echo $api
 
    # - thy
