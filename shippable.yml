@@ -1,17 +1,16 @@
 language: node_js
-
 # Version number
 node_js:
   - 0.10   
-  - 0.12
-  - 4.2.3 
+  - 0.12  
+ # - 4.2.3 
   #- iojs-v1     
   #- iojs-v2
   #- iojs-v3   
   #- 5.0          
 env:
   - env=test1
- # - env=test2
+  - env=test2
    # env=test3
 #matrix:
 #include this version with the env 
@@ -34,7 +33,7 @@ build:
     - echo $sre
     - echo $sru
     - echo $env
-    - echo $www
+    - echo $www 
     - echo $api
 
    # - thy
