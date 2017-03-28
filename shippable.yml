@@ -35,6 +35,7 @@ build:
     - echo $one
     - echo $three
     - echo $sre
+    - echo $foo
 
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
