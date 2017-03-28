@@ -38,6 +38,7 @@ build:
     - echo $api
     - echo $one
     - echo $three
+    - echo $sre
 
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
@@ -47,6 +48,7 @@ integrations:
   generic:
   # - integrationName: "key-test"
    - integrationName: "keyvalue"
+   - integrationName: "envtest"
 
   notifications:
   
