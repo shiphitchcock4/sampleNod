@@ -36,12 +36,18 @@ build:
     - echo $env
     - echo $www
     - echo $api
+    - echo $one
+    - echo $three
 
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
    
  # cache: true 
 integrations:
+ generic:
+   - integrationName: "key-test"
+
+
   notifications:
   
     - integrationName: ship-image1
