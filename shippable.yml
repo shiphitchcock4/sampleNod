@@ -49,7 +49,7 @@ build:
 integrations: 
   generic:
    - integrationName: "envtest"
-   - integerationName: "keydeletetest"
+   - integrationName: "keydeletetest"
    - integrationName: "keyvalue"
   # - integrationName: "envtest"
 
