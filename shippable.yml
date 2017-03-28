@@ -49,6 +49,7 @@ build:
 integrations:
   generic:
    - integrationName: "envtest"
+   - integerationName: "keydeletetest"
    - integrationName: "keyvalue"
   # - integrationName: "envtest"
 
