@@ -46,7 +46,7 @@ build:
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
    
  # cache: true 
-integrations:
+integrations: 
   generic:
    - integrationName: "envtest"
    - integerationName: "keydeletetest"
