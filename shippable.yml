@@ -37,6 +37,7 @@ build:
     - echo $sre
     - echo $foo
     - echo $numbertest
+    - echo $testspecial
 
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
