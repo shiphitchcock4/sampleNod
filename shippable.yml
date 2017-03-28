@@ -30,10 +30,6 @@ build:
   ci:          
     - node --version
     - sudo docker ps -a
-    - echo $foo
-    - echo $sre
-    - echo $sru
-    - echo $env
     - echo $www
     - echo $api
     - echo $one
