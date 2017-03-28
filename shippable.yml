@@ -47,7 +47,7 @@ build:
 integrations:
   generic:
   # - integrationName: "key-test"
-   - integrationName: "keyvalue"
+  # - integrationName: "keyvalue"
    - integrationName: "envtest"
 
   notifications:
