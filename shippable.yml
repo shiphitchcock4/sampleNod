@@ -44,7 +44,7 @@ build:
    
  # cache: true 
 integrations:
- generic:
+  generic:
    - integrationName: "key-test"
 
 
