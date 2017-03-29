@@ -54,15 +54,15 @@ integrations:
    - integrationName: "keyvalue"
   # - integrationName: "envtest"
 
-  notifications:
-  
-    - integrationName: ship-image1
-      type: webhook
-      payload:
-        - versionName=Shippable Run $BUILD_NUMBER 
-      on_start: always
-      on_success: always
-      on_failure: always
+#  notifications:
+#  
+#    - integrationName: ship-image1
+#      type: webhook
+#      payload:
+#        - versionName=Shippable Run $BUILD_NUMBER 
+#      on_start: always
+#      on_success: always
+#      on_failure: always
     #  on_pull_request: always    
 # integrations:
 #   notifications:
