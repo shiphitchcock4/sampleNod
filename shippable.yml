@@ -48,16 +48,7 @@ build:
  # cache: true 
 integrations:    
   notifications:
-    - integrationName: notify-slack 
-      type: slack
-      recipients:
-        - "#random" 
-        - "#rc-public" 
-        - "#rc-private"
-      on_start: always
-      on_success: always
-      on_failure: always      
-       
+   
     - integrationName: email         
       type: email        
       recipients: 
