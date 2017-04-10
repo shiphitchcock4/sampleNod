@@ -25,7 +25,6 @@ env:
    # - node_js: 0.12
     #  env:
      #   - env=test1
-    
 build:      
   ci:          
     - node --version
