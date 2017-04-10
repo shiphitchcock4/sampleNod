@@ -24,8 +24,7 @@ env:
   #allow_failures:
    # - node_js: 0.12
     #  env:
-     #   - env=test1
-    
+     #   - env=test1 
 build:      
   ci:      
     - sleep 2m
