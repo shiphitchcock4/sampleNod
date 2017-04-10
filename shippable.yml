@@ -2,7 +2,7 @@ language: node_js
 
 # Version number
 node_js:
-  - 0.10         
+  - 0.10        
   - 0.12
   - 4.2.3 
   #- iojs-v1     
@@ -22,7 +22,7 @@ env:
      #    f1: f2
 
   #allow_failures:
-   # - node_js: 0.12
+   # - node_js: 0.12 
     #  env:
      #   - env=test1
     
