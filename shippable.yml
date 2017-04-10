@@ -40,9 +40,8 @@ build:
     - echo $numbertest
     - echo $testspecial
     - echo $numletters
-    - echo $doublequote
+  #  - echo $doublequote
   #  - echo $singleletters
-
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
    
