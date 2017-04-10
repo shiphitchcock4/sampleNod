@@ -28,7 +28,7 @@ env:
     
 build:      
   ci:      
-    - sleep 2m
+   # - sleep 2m
     - node --version
     - sudo docker ps -a
     - echo $www
