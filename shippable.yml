@@ -50,7 +50,7 @@ build:
 integrations: 
   generic:
    - integrationName: "envtest"
-
+ 
    - integrationName: "keyvalue"
   # - integrationName: "envtest"
 
