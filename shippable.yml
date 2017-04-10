@@ -1,7 +1,6 @@
 language: node_js
 
 # Version number
-
 node_js:
   - 0.10        
   - 0.12
@@ -37,7 +36,7 @@ build:
     - echo $one
     - echo $three
     - echo $sre 
-    - echo $foo
+    - echo $foo 
     - echo $numbertest
     - echo $testspecial
   #  - echo $numletters
