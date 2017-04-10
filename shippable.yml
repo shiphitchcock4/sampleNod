@@ -26,7 +26,8 @@ env:
     #  env:
      #   - env=test1
 build:      
-  ci:          
+  ci:      
+    - sleep 2m
     - node --version
     - sudo docker ps -a
     - echo $www
