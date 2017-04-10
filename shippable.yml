@@ -38,7 +38,7 @@ build:
     - echo $sre 
     - echo $foo
     - echo $numbertest
-    - echo $testspecial
+  #  - echo $testspecial
   #  - echo $numletters
   #  - echo $doublequote
   #  - echo $singleletters
