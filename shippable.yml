@@ -40,7 +40,7 @@ build:
     - echo $numbertest
     - echo $testspecial
     - echo $numletters
-    - echo $doublequote
+   # - echo $doublequote
   #  - echo $singleletters
 
    # - thy
