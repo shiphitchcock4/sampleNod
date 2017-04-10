@@ -35,12 +35,12 @@ build:
     - echo $api
     - echo $one
     - echo $three
-    - echo $sre
+    - echo $sre 
     - echo $foo
     - echo $numbertest
     - echo $testspecial
-    #- echo $numletters
-   # - echo $doublequote
+    - echo $numletters
+    - echo $doublequote
   #  - echo $singleletters
 
    # - thy
