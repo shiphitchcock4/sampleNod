@@ -39,7 +39,7 @@ build:
     - echo $foo
     - echo $numbertest
     - echo $testspecial
-    - echo $numletters
+  #  - echo $numletters
   #  - echo $doublequote
   #  - echo $singleletters
    # - thy
