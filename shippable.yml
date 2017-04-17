@@ -47,17 +47,17 @@ build:
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
    
  # cache: true 
- integrations: 
-   notifications:
-     - integrationName: email         
-       type: email        
-       recipients: 
-         - shiptest.rc.ow@gmail.com
-         - shiptest.rc.me@gmail.com
-       sendLogsInEmail : true
-       on_start: always
-       on_success: always 
-       on_failure: always 
+integrations: 
+  notifications:
+    - integrationName: email         
+      type: email        
+      recipients: 
+        - shiptest.rc.ow@gmail.com
+        - shiptest.rc.me@gmail.com
+      sendLogsInEmail : true
+      on_start: always
+      on_success: always 
+      on_failure: always 
 #integrations: 
  # generic:
   # - integrationName: "envtest"
