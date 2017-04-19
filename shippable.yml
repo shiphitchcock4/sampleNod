@@ -14,9 +14,23 @@ node_js:
 build:
   ci:
     - node --version
-    - sleep 2m
+  #  - sleep 2m
   pre_ci_boot:
     image_name: drydock/u14nod
     image_tag: prod
     pull: true 
   cache: true
+  
+integrations:    
+  notifications:
+    - integrationName: email         
+      type: email        
+      recipients: 
+        - shiptest.rc.ow@gmail.com
+        - shiptest.rc.me@gmail.com
+      sendConsoleLogs : true
+      sendCoverageReports : true
+      on_start: always
+      on_success: always 
+      on_failure: always 
+
