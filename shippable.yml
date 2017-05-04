@@ -7,7 +7,7 @@ node_js:
   - 4.2.3 
   #- iojs-v1     
   #- iojs-v2
-  #- iojs-v3   
+  - iojs-v3   
   - 5.0          
 env:
   - env=test1
@@ -31,7 +31,7 @@ build:
    # - sleep 2m
     - node --version
     - sudo docker ps -a
-    - echo $www
+  #  - echo $www
     - echo $api
     - echo $one
     - echo $three
