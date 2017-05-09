@@ -28,8 +28,8 @@ env:
     
 build:      
   ci:      
-    - sleep 2m
-    - node --version
+  #  - sleep 2m
+    - node --version 
     - sudo docker ps -a
     - echo $www
     - echo $api
