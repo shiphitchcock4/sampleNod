@@ -2,13 +2,14 @@ language: node_js
 
 # Version number
 node_js:
-  - 0.10      
+  - 0.10        
   - 0.12
   - 4.2.3 
   #- iojs-v1     
   #- iojs-v2
   #- iojs-v3   
-  #- 5.0          
+  - 5.0        
+  
 env:
   - env=test1
  # - env=test2
@@ -28,21 +29,20 @@ env:
     
 build:      
   ci:      
-    - sleep 2m
-    - node --version
+  #  - sleep 2m
+    - node --version 
     - sudo docker ps -a
     - echo $www
     - echo $api
     - echo $one
     - echo $three
-    - echo $sre
+    - echo $sre 
     - echo $foo
     - echo $numbertest
     - echo $testspecial
-    - echo $numletters
-    - echo $doublequote
-    - echo $singleletters
-
+  #  - echo $numletters
+  #  - echo $doublequote
+  #  - echo $singleletters
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
    
