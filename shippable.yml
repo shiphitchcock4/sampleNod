@@ -40,6 +40,7 @@ build:
     - echo $foo
     - echo $numbertest
     - echo $testspecial
+    - echo $tr
   #  - echo $numletters
   #  - echo $doublequote
   #  - echo $singleletters
