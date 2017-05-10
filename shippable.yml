@@ -42,6 +42,7 @@ build:
     - echo $numletters
     - echo $doublequote
     - echo $singleletters
+    - echo $JOB_ID 
 
    # - thy
   #  - if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi 
