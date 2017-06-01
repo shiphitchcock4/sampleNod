@@ -5,7 +5,7 @@ node_js:
   - 0.10
   - 0.12
  # - 4.2.3
-  #- iojs-v1
+  #- iojs-v1   
   #- iojs-v2
   #- iojs-v3
  # - 5.0
@@ -13,6 +13,7 @@ node_js:
 build:
   ci:
     - node --version
+    - echo $PULL_REQUEST_REPO_FULL_NAME
 
  # pre_ci_boot:
    # image_name: drydock/u12nod
